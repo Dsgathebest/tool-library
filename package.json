@@ -10,8 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security",
+    "proxy-chain": "^2.3.0",
+    "puppeteer": "^20.9.0",
     "puppeteer-cluster": "^0.23.0",
     "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.0.1444"
   }
 }

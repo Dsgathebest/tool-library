@@ -1,6 +1,7 @@
-const puppeteer = require('puppeteer-extra');
-const { Cluster } = require('puppeteer-cluster');
-const fs = require('fs');
-
+const puppeteer = require('puppeteer');
+const puppeteerExtra = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
-puppeteer.use(StealthPlugin());
+const proxyChain = require('proxy-chain');
+const { Cluster } = require('puppeteer-cluster');
+const UserAgent = require('user-agents');
+const fs = require('fs');
